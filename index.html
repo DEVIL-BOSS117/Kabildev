@@ -2,114 +2,118 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Developer Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-    }
-    .hero {
-      background: linear-gradient(135deg, #007bff, #00c6ff);
-      color: white;
-      padding: 80px 0;
-      text-align: center;
-    }
-    .section-title {
-      font-weight: 600;
-      margin-bottom: 30px;
-    }
-    .card {
-      border-radius: 1rem;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
+    
+    <!-- Profile Section -->
+    <section class="profile-section section-box">
+      <div class="top-box">
+        <img src="./IMG-20250406-WA0054.jpg" alt="Profile Photo" class="profile-pic"/>
+        <div class="name-box">
+          <h1>KABIL DEV</h1>
+          <p>Web Developer | Software Engineer | Continuous Learner </p>
+        </div>
+      </div>
+    </section>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1 class="display-4">KABIL DEV</h1>
-      <p class="lead">Full Stack Developer | Android Developer | ML Enthusiast</p>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section class="py-5">
-    <div class="container">
-      <h2 class="section-title text-center">About Me</h2>
-      <p class="text-center">
-        I’m a passionate developer with a knack for building clean and scalable applications.
-        With experience in mobile and web development, I enjoy working on end-to-end solutions that solve real-world problems.
+    <!-- About Me -->
+    <section class="about-section section-box">
+      <h2>About Me</h2>
+      <p>
+        I’m currently a student at <strong>Mohamed Sathak Engineering College</strong>, pursuing my degree in engineering.
+        I’m deeply passionate about web development and have a strong interest in front-end technologies.
       </p>
-    </div>
-  </section>
+      <p>
+        As a <strong>continuous learner</strong>, I regularly explore new tools, libraries, and frameworks to improve my skills and stay updated with the latest trends in technology.
+        I enjoy creating clean, responsive user interfaces and turning creative ideas into interactive experiences.
+      </p>
+    </section>
 
-  <!-- Skills -->
-  <section class="py-5 bg-light">
-    <div class="container">
-      <h2 class="section-title text-center">Skills</h2>
-      <div class="row text-center">
-        <div class="col-md-3">Android (Kotlin/Java)</div>
-        <div class="col-md-3">React / Angular</div>
-        <div class="col-md-3">Node.js / Express</div>
-        <div class="col-md-3">MongoDB / MySQL</div>
+    <!-- Education -->
+    <section class="education-section section-box">
+      <h2>Education</h2>
+      <div class="edu-item">
+        <h3>Bachelor of Engineering in Computer Science</h3>
+        <p><strong>Mohamed Sathak Engineering College</strong> — 2022 - 2026</p>
+        <p>CGPA: 8.02 | Focus on web development, algorithms, and databases.</p>
       </div>
-      <div class="row text-center mt-3">
-        <div class="col-md-3">Firebase / Firestore</div>
-        <div class="col-md-3">Git & GitHub</div>
-        <div class="col-md-3">Machine Learning (Python)</div>
-        <div class="col-md-3">REST APIs / GraphQL</div>
+      <div class="edu-item">
+        <h3>High School (Science Stream)</h3>
+        <p><strong>National Academy Metric. High. Sec. School</strong> — 2015 - 2018</p>
+        <p>Percentage: 82.67% | Math, Physics, Chemistry, Computer Science.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Projects -->
-  <section class="py-5">
-    <div class="container">
-      <h2 class="section-title text-center">Projects</h2>
-      <div class="row g-4">
-        <div class="col-md-6">
-          <div class="card shadow-sm p-3">
-            <h5>Portfolio Website</h5>
-            <p>A personal website built using HTML, CSS, Bootstrap, and deployed with GitHub Pages.</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card shadow-sm p-3">
-            <h5>Task Manager App</h5>
-            <p>React-based task manager with Node.js backend and MongoDB. Supports user login and task tracking.</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card shadow-sm p-3">
-            <h5>Weather Forecast App</h5>
-            <p>Android app that fetches weather info using Retrofit and OpenWeather API. Built with MVVM.</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card shadow-sm p-3">
-            <h5>ML Image Classifier</h5>
-            <p>Python-based project that uses TensorFlow to classify images into categories with a simple UI.</p>
-          </div>
-        </div>
+    <!-- Skills -->
+    <section class="skills-section section-box">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Front-End:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Back-End:</strong> JavaScript, python</li>
+        <li><strong>Database:</strong> MySQL</li>
+        <li><strong>Tools:</strong> Git, GitHub,chatgpt, VS Code</li>
+        <li><strong>Others:</strong>Time Management, Communication, Problem Solving, Team Collaboration, Continuous Learning</li>
+      </ul>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience-section section-box">
+      <h2>Experience</h2>
+      <div class="exp-item">
+        <h3>Cyber Security Intern</h3>
+        <p><strong>Anzee Tech solutions</strong> — June 2025 - july 2025</p>
+        <p>Assisted in vulnerability assessments and basic penetration testing.</p>
       </div>
-    </div>
-  </section>
+      <div class="exp-item">
+        <h3>Front-End Developer (HTML & CSS)</h3>
+        <p><strong>Self-Learning</strong> — 2025 - Present</p>
+        <p>Built responsive and user-friendly websites using HTML5 and CSS3.</p>
+      </div>
+    </section>
 
-  <!-- Contact -->
-  <section class="py-5 bg-light">
-    <div class="container text-center">
-      <h2 class="section-title">Contact</h2>
-      <p>Email: john.doe@example.com</p>
-      <p>LinkedIn: linkedin.com/in/johndoe</p>
-      <p>GitHub: github.com/johndoe</p>
-    </div>
-  </section>
+    <!-- Projects -->
+    <section class="projects-section section-box">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Portfolio Website:</strong> Responsive design portfolio using HTML/CSS/JS.</li>
+        <li> <strong>Oil Spill Detection using SAR Satellites</strong><br>
+          Created a short educational video explaining how Synthetic Aperture Radar (SAR) satellites help in detecting oil spills on the ocean surface.<br>
+          <a href="https://youtu.be/newhS5ys3RQ?si=Q26X9tRTI6TH-uEg" target="_blank">📺 Watch the video on YouTube</a></li>
 
-  <footer class="text-center py-3 bg-dark text-white">
-    © 2025 John Doe. All rights reserved.
-  </footer>
+      </ul>
+    </section>
 
+    <!-- Certifications -->
+    <section class="certifications-section section-box">
+      <h2>Certifications</h2>
+      <ul>
+        <li>SQL Server – GUVI</li>
+        <li>Responsive web Design – freeCodeCamp</li>
+        <li>HTML & CSS – GUVI</li>
+      </ul>
+    </section>
+
+    <!-- Languages -->
+    <section class="languages-section section-box">
+      <h2>Languages</h2>
+      <ul>
+        <li>English – Fluent</li>
+        <li>Tamil – Native</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section section-box">
+      <h2>Contact</h2>
+      <p>Email: kabiladhi007@gmail.com</p>
+      <p>LinkedIn: https://www.linkedin.com/in/kabil-dev-745350351</p>
+      <p>GitHub: https://github.com/DEVIL-BOSS117</p>
+    </section>
+
+  </div>
 </body>
 </html>
